@@ -1,9 +1,17 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following fuctions are used to cache the inverse of a mtrix
 
-## Write a short comment describing this function
+
+## makeCacheMatrix creats a list containing a function
+## -
+## -
+## -
 
 makeCacheMatrix <- function(x = matrix()) {
+	i <- NULL
+	set <- function(y){
+		x <<- y
+		i <<- NULL
+	}
 
 }
 
